@@ -62,7 +62,7 @@ app.use(function (err, req, res, next) {
 
 
 mongoose
-  .connect("mongodb://localhost/productscrud", {
+  .connect("mongodb+srv://hassan:<123>@cluster0.avb5d.mongodb.net/myFirstDatabase?retryWrites=true&w=majority", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 
